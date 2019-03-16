@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src_code\main.cpp" />
+    <ClCompile Include="src_code\test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src_code\pch.h" />
