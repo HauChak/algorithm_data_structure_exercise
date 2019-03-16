@@ -115,9 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SaleStockTimeTwo.cpp" />
+    <ClCompile Include="src_code\SaleStockTime.cpp" />
     <ClCompile Include="src_code\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SaleStockTimeTwo.h" />
+    <ClInclude Include="src_code\SaleStockTime.h" />
     <ClInclude Include="src_code\pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
