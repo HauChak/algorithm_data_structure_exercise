@@ -2,13 +2,13 @@
 #include <vector>
 
 using namespace std;
-class SaleStockTimeTwo
+class SaleStockTimeThree
 {
 public:
-	SaleStockTimeTwo();
+	SaleStockTimeThree();
 	int maxProfit(vector<int>& prices) {
 
 	}
-	~SaleStockTimeTwo();
+	~SaleStockTimeThree();
 };
 

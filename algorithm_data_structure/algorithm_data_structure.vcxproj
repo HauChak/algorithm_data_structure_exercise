@@ -115,12 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SaleStockTimeTwo.cpp" />
+    <ClCompile Include="src_code\SaleStockTimeThree.cpp" />
+    <ClCompile Include="src_code\SaleStockTimeTwo.cpp" />
     <ClCompile Include="src_code\SaleStockTime.cpp" />
     <ClCompile Include="src_code\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SaleStockTimeTwo.h" />
+    <ClInclude Include="src_code\SaleStockTimeThree.h" />
+    <ClInclude Include="src_code\SaleStockTimeTwo.h" />
     <ClInclude Include="src_code\SaleStockTime.h" />
     <ClInclude Include="src_code\pch.h" />
   </ItemGroup>

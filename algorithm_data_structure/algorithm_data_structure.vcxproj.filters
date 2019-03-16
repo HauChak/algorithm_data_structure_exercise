@@ -21,7 +21,10 @@
     <ClCompile Include="src_code\SaleStockTime.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SaleStockTimeTwo.cpp">
+    <ClCompile Include="src_code\SaleStockTimeThree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\SaleStockTimeTwo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +35,10 @@
     <ClInclude Include="src_code\SaleStockTime.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SaleStockTimeTwo.h">
+    <ClInclude Include="src_code\SaleStockTimeThree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\SaleStockTimeTwo.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
