@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	LongestValidParetheses demo;
-	int res = demo.longestValidParentheses(")()())");
+	LongestPalindromicSubsequence demo;
+	int res = demo.longestPalindromeSubseq("cbbd");
 	system("pause");
 	return 0;
 }
