@@ -4,9 +4,8 @@ using namespace std;
 
 int main()
 {
-	SaleStockTimeTwo demo;
-	vector<int> price = { 7, 1, 5, 3, 6, 4 };
-	int profit = demo.maxProfit(price);
+	LongestValidParetheses demo;
+	int res = demo.longestValidParentheses(")()())");
 	system("pause");
 	return 0;
 }
