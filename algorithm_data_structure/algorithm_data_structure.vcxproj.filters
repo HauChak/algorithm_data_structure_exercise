@@ -56,5 +56,8 @@
     <ClInclude Include="src_code\LongestPalindromicSubsequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\PalindromePartitioningTwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

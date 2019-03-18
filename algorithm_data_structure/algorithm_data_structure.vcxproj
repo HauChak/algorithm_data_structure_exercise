@@ -125,6 +125,7 @@
     <ClInclude Include="src_code\LongestPalindromicSubsequence.h" />
     <ClInclude Include="src_code\LongestValidParetheses.h" />
     <ClInclude Include="src_code\MaximumSubarray.h" />
+    <ClInclude Include="src_code\PalindromePartitioningTwo.h" />
     <ClInclude Include="src_code\SaleStockTimeVFour.h" />
     <ClInclude Include="src_code\SaleStockTimeThree.h" />
     <ClInclude Include="src_code\SaleStockTimeTwo.h" />
