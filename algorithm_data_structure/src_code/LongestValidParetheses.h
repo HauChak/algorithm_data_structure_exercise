@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <stack>
 #include <algorithm>
 using namespace std;
 
@@ -29,6 +30,25 @@ public:
 			global_dp[i] = max(global_dp[i - 1], local_dp[i]);
 		}
 		return global_dp[sz - 1];
+	}
+
+	int get_solution_with_stack(string s)
+	{
+		stack<int> dp;
+		int sz = s.size();
+		int pos = -1,res = 0;
+		for (int i = 0; i < sz; ++i)
+		{
+			if (s[i] == '(')
+				dp.push(i);
+			else if (dp.empty())
+				pos = i;
+			else
+			{
+				dp.pop();
+				res = dp.empty() ? max(res, i - pos) : max(res, i - dp.top());
+			}
+		}
 	}
 	~LongestValidParetheses() {};
 
