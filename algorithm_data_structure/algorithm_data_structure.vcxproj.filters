@@ -62,5 +62,8 @@
     <ClInclude Include="src_code\LongestIncreasingPathInMatrix.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\LongestHarmoniousSubsequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
