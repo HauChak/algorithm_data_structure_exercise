@@ -65,5 +65,8 @@
     <ClInclude Include="src_code\LongestHarmoniousSubsequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\ThressSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

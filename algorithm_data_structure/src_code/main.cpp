@@ -4,8 +4,9 @@ using namespace std;
 
 int main()
 {
-	LongestPalindromicSubsequence demo;
-	int res = demo.longestPalindromeSubseq("cbbd");
+	ThreeSum demo;
+	vector<int> nums = { -1, 0, 1, 2, -1, -4 };
+	vector<vector<int>> res = demo.threeSum(nums);
 	system("pause");
 	return 0;
 }
