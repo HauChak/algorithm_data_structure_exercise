@@ -68,5 +68,17 @@
     <ClInclude Include="src_code\ThressSum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="binary_search\BinarySearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search\MedianOfTwoSortedAarrays.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\MostWaterContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\TrappedRainingWater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

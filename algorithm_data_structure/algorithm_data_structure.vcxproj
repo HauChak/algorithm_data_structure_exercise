@@ -122,11 +122,14 @@
     <ClCompile Include="src_code\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binary_search\BinarySearch.h" />
+    <ClInclude Include="binary_search\MedianOfTwoSortedAarrays.h" />
     <ClInclude Include="src_code\LongestHarmoniousSubsequence.h" />
     <ClInclude Include="src_code\LongestIncreasingPathInMatrix.h" />
     <ClInclude Include="src_code\LongestPalindromicSubsequence.h" />
     <ClInclude Include="src_code\LongestValidParetheses.h" />
     <ClInclude Include="src_code\MaximumSubarray.h" />
+    <ClInclude Include="src_code\MostWaterContainer.h" />
     <ClInclude Include="src_code\PalindromePartitioningTwo.h" />
     <ClInclude Include="src_code\SaleStockTimeVFour.h" />
     <ClInclude Include="src_code\SaleStockTimeThree.h" />
@@ -134,6 +137,7 @@
     <ClInclude Include="src_code\SaleStockTime.h" />
     <ClInclude Include="src_code\pch.h" />
     <ClInclude Include="src_code\ThressSum.h" />
+    <ClInclude Include="src_code\TrappedRainingWater.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

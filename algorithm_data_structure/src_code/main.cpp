@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 	ThreeSum demo;
-	vector<int> nums = { -1, 0, 1, 2, -1, -4 };
-	vector<vector<int>> res = demo.threeSum(nums);
+	vector<int> nums = { 1,2,3,4};
+	int result = search_num<int>(nums, 1);
 	system("pause");
 	return 0;
 }
