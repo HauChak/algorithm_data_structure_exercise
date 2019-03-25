@@ -3,53 +3,28 @@
 #include <algorithm>
 using namespace std;
 
-class  NextPermutation
+
+class NextPermutation
 {
 public:
-	void nextPermutation(vector<int>& nums) {
+	void nextPermutation(vector<int>&nums)
+	{
 		if (nums.empty())return;
-		int sz = nums.size();
-		bool flag = false;		
-		for (int i = sz - 1; i >= 0; --i)
+		for (int i = nums.size() - 2; i >= 0; --i)
 		{
-			int j = i - 1;
-			while (j>=0)
-
+			if (nums[i + 1] > nums[i])
 			{
-				if (nums[j] < nums[i])
-					continue;
-				j--;
-			}
-			if (j >= 0)
-			{
-				int tmp = nums[i];
-				nums[i] = nums[j];
-				nums[j] = tmp;
-				flag = true;
+				int j = 0;
+				for (j = nums.size() - 1; j > i; --j)
+				{
+					if (nums[j] > nums[i])break;
+				}
+				swap(nums[i], nums[j]);
+				reverse(nums.begin() + i + 1, nums.end());
 				return;
 			}
+				
 		}
-		if (!flag)
-		{
-			for (int i = sz - 1; i >= 0; --i)
-			{
-				int j = i - 1;
-				while (j >= 0)
-				{
-					if (nums[j] < nums[i])
-						continue;
-					j--;
-				}
-				if (j >= 0)
-				{
-					int tmp = nums[i];
-					nums[i] = nums[j];
-					nums[j] = tmp;
-					return;
-				}
-			}
-		}
+		reverse(nums.begin(), nums.end());
 	}
-protected:
-private:
 };
