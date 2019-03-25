@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-	ThreeSum demo;
-	vector<int> nums = { 1,2,3,4};
-	int result = search_num<int>(nums, 1);
+	NextPermutation demo;
+	vector<int> nums = {1,3,2};
+	demo.nextPermutation(nums);
 	system("pause");
 	return 0;
 }
