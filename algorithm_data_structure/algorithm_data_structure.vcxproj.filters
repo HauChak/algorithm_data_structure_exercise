@@ -89,5 +89,8 @@
     <ClInclude Include="src_code\NextPermutation.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\ReversedInteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

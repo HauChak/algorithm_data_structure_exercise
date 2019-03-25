@@ -8,3 +8,4 @@
 #include "../binary_search/BinarySearch.h"
 #include "DuplicatedWordRemover.h"
 #include "NextPermutation.h"
+#include "ReversedInteger.h"

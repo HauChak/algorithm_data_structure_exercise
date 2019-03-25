@@ -4,9 +4,10 @@ using namespace std;
 
 int main()
 {
-	NextPermutation demo;
-	vector<int> nums = {1,3,2};
-	demo.nextPermutation(nums);
+	ReversedInteger demo;
+	int res = demo.reverse(123);
+	int i = INT_MAX;
+	long long j = 2 << 15;
 	system("pause");
 	return 0;
 }
