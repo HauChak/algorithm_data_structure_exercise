@@ -92,5 +92,14 @@
     <ClInclude Include="src_code\ReversedInteger.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\ParenthesesGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\ImgRotater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\FirstMissingPositive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
