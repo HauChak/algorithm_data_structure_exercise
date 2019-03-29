@@ -141,6 +141,7 @@
     <ClInclude Include="src_code\SaleStockTimeTwo.h" />
     <ClInclude Include="src_code\SaleStockTime.h" />
     <ClInclude Include="src_code\pch.h" />
+    <ClInclude Include="src_code\SearchInRotatedSortedArray.h" />
     <ClInclude Include="src_code\ThreeClosetSum.h" />
     <ClInclude Include="src_code\ThressSum.h" />
     <ClInclude Include="src_code\TrappedRainingWater.h" />
