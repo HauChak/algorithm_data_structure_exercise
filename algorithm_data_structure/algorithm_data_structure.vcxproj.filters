@@ -104,5 +104,8 @@
     <ClInclude Include="src_code\SearchInRotatedSortedArray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\TwoSortedListMerger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
