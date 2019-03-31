@@ -72,7 +72,7 @@ public:
 		return merge_two_list(left_node, right_node);
 	}
 
-	ListNode* mergeKLists(vector<ListNode*>& lists)
+	ListNode* mergeKLists2(vector<ListNode*>& lists)
 	{
 		return help_sl(lists, 0, lists.size() - 1);
 	}

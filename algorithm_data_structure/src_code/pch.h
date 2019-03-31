@@ -12,3 +12,4 @@
 #include "TwoSortedListMerger.h"
 #include "KSortedListsMerger.h"
 #include "../Sort/Sort.h"
+#include "RotateList.h"

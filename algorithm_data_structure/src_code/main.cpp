@@ -4,9 +4,10 @@ using namespace std;
 
 int main()
 {
-	vector<int> nums = { 34,8,64,51,34,34,32,21 };
-	vector<int> nums2 = { 34,8 };
-	bubble_sort(nums);
+	vector<int> nums = { 1,2,3,4,5 };
+	ListNode*head = initialize_linklist(nums);
+	LinkListInitializer demo;
+	demo.rotateRight(head, 2);
 	system("pause");
 	return 0;
 }
