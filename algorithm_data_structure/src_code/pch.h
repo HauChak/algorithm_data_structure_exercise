@@ -10,3 +10,5 @@
 #include "NextPermutation.h"
 #include "ReversedInteger.h"
 #include "TwoSortedListMerger.h"
+#include "KSortedListsMerger.h"
+#include "../Sort/Sort.h"

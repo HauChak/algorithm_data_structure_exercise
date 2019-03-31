@@ -107,5 +107,17 @@
     <ClInclude Include="src_code\TwoSortedListMerger.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\KSortedListsMerger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\LinkListInitializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort\Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\RotateList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

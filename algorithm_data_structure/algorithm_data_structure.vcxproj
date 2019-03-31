@@ -124,8 +124,11 @@
   <ItemGroup>
     <ClInclude Include="binary_search\BinarySearch.h" />
     <ClInclude Include="binary_search\MedianOfTwoSortedAarrays.h" />
+    <ClInclude Include="Sort\Sort.h" />
     <ClInclude Include="src_code\DuplicatedWordRemover.h" />
     <ClInclude Include="src_code\ImgRotater.h" />
+    <ClInclude Include="src_code\KSortedListsMerger.h" />
+    <ClInclude Include="src_code\LinkListInitializer.h" />
     <ClInclude Include="src_code\LongestHarmoniousSubsequence.h" />
     <ClInclude Include="src_code\LongestIncreasingPathInMatrix.h" />
     <ClInclude Include="src_code\LongestPalindromicSubsequence.h" />
@@ -136,6 +139,7 @@
     <ClInclude Include="src_code\PalindromePartitioningTwo.h" />
     <ClInclude Include="src_code\ParenthesesGenerator.h" />
     <ClInclude Include="src_code\ReversedInteger.h" />
+    <ClInclude Include="src_code\RotateList.h" />
     <ClInclude Include="src_code\SaleStockTimeVFour.h" />
     <ClInclude Include="src_code\SaleStockTimeThree.h" />
     <ClInclude Include="src_code\SaleStockTimeTwo.h" />
