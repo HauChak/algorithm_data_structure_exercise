@@ -119,5 +119,11 @@
     <ClInclude Include="src_code\RotateList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\RemoveDuplicatedEle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\RemoveDuplicatedEle2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
