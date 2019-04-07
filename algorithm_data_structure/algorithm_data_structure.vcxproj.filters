@@ -125,5 +125,8 @@
     <ClInclude Include="src_code\RemoveDuplicatedEle2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src_code\InsertionSortLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

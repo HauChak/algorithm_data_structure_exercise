@@ -127,6 +127,7 @@
     <ClInclude Include="Sort\Sort.h" />
     <ClInclude Include="src_code\DuplicatedWordRemover.h" />
     <ClInclude Include="src_code\ImgRotater.h" />
+    <ClInclude Include="src_code\InsertionSortLists.h" />
     <ClInclude Include="src_code\KSortedListsMerger.h" />
     <ClInclude Include="src_code\LinkListInitializer.h" />
     <ClInclude Include="src_code\LongestHarmoniousSubsequence.h" />
