@@ -14,3 +14,5 @@
 #include "../Sort/Sort.h"
 #include "RotateList.h"
 #include "ReverseLinkLists.h"
+#include "RemoveDuplicatedElements.h"
+#include "PartionList.h"

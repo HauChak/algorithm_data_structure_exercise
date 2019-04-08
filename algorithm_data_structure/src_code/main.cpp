@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-	vector<int> nums = { 1,2,3,4,5 };
+	vector<int> nums = { 1,2,5,3,2,2,4,5 };
 	ListNode*head = initialize_linklist(nums);
-	ReverseLinkLists demo;
-	ListNode* newhead = demo.reverse_list(head);
+	PartitionList demo;
+	ListNode* newhead = demo.partition_list(head,3);
 	system("pause");
 	return 0;
 }
