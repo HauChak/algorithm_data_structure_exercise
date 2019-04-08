@@ -128,5 +128,11 @@
     <ClInclude Include="src_code\InsertionSortLists.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Tree\InitializeTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\SameTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

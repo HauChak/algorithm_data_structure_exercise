@@ -154,6 +154,8 @@
     <ClInclude Include="src_code\TrappedRainingWater.h" />
     <ClInclude Include="src_code\FirstMissingPositive.h" />
     <ClInclude Include="src_code\TwoSortedListMerger.h" />
+    <ClInclude Include="Tree\InitializeTree.h" />
+    <ClInclude Include="Tree\SameTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
