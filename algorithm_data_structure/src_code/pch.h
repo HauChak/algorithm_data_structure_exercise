@@ -16,3 +16,5 @@
 #include "ReverseLinkLists.h"
 #include "RemoveDuplicatedElements.h"
 #include "PartionList.h"
+#include "../Tree/InitializeTree.h"
+#include "../Tree/PathSumThree.h"

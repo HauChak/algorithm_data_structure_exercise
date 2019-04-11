@@ -137,5 +137,8 @@
     <ClInclude Include="Tree\TreePathSum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Tree\PathSumThree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

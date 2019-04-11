@@ -155,6 +155,7 @@
     <ClInclude Include="src_code\FirstMissingPositive.h" />
     <ClInclude Include="src_code\TwoSortedListMerger.h" />
     <ClInclude Include="Tree\InitializeTree.h" />
+    <ClInclude Include="Tree\PathSumThree.h" />
     <ClInclude Include="Tree\SameTree.h" />
     <ClInclude Include="Tree\TreePathSum.h" />
   </ItemGroup>
