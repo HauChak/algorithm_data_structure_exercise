@@ -18,3 +18,4 @@
 #include "PartionList.h"
 #include "../Tree/InitializeTree.h"
 #include "../Tree/PathSumThree.h"
+#include "../Tree/ValidBinaryTree.h"
