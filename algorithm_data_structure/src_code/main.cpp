@@ -10,8 +10,6 @@ int main()
 	initialize_tree(root, nums);
 	ValidBinaryTree demo;
 	bool res = demo.isValidBST(root);
-	int a___ = 10;
-	cout << "hello world" << endl;
 	bool a = false && true && true;
 	system("pause");
 	return 0;
