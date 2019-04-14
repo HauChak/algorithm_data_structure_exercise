@@ -140,5 +140,23 @@
     <ClInclude Include="Tree\PathSumThree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Tree\TreeMinimumDepth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\BinaryTreeMaxPathSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\BinaryTreeInOrderTravel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\BinaryTreeLevelOrderTravel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\UniqueBinarySearchTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\UniqueBinarySearchTreeTwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -154,10 +154,16 @@
     <ClInclude Include="src_code\TrappedRainingWater.h" />
     <ClInclude Include="src_code\FirstMissingPositive.h" />
     <ClInclude Include="src_code\TwoSortedListMerger.h" />
+    <ClInclude Include="Tree\BinaryTreeInOrderTravel.h" />
+    <ClInclude Include="Tree\BinaryTreeLevelOrderTravel.h" />
+    <ClInclude Include="Tree\BinaryTreeMaxPathSum.h" />
     <ClInclude Include="Tree\InitializeTree.h" />
     <ClInclude Include="Tree\PathSumThree.h" />
     <ClInclude Include="Tree\SameTree.h" />
+    <ClInclude Include="Tree\TreeMinimumDepth.h" />
     <ClInclude Include="Tree\TreePathSum.h" />
+    <ClInclude Include="Tree\UniqueBinarySearchTree.h" />
+    <ClInclude Include="Tree\UniqueBinarySearchTreeTwo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
