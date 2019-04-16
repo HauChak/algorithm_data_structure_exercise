@@ -5,12 +5,11 @@ using namespace std;
 
 int main()
 {
-	vector<int> nums = {5,1,not_T,not_T,4,3,not_T,not_T,6};
+	vector<int> nums = {4,9,5,not_T,not_T,1,not_T,not_T,0};
 	TreeNode*root = nullptr;
 	initialize_tree(root, nums);
-	ValidBinaryTree demo;
-	bool res = demo.isValidBST(root);
-	bool a = false && true && true;
+	SumRootToLeaf demo;
+	int res = demo.sumNumbers(root);
 	system("pause");
 	return 0;
 }
