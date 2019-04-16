@@ -1,4 +1,4 @@
-#include"algothrim_data_structure/src_code/pch.h"
+#include "algorithm_data_structure/src_code/pch.h"
 #include <vector>
 #define Max(a,b) a*b
 using namespace std;
