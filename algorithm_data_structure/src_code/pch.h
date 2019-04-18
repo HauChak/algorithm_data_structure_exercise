@@ -19,3 +19,4 @@
 #include "../Tree/InitializeTree.h"
 #include "../Tree/PathSumThree.h"
 #include "../Tree/ValidBinaryTree.h"
+#include "../Tree/SumRootToLeaf.h"
