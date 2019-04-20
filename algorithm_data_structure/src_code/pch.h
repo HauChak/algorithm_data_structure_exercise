@@ -20,3 +20,5 @@
 #include "../Tree/PathSumThree.h"
 #include "../Tree/ValidBinaryTree.h"
 #include "../Tree/SumRootToLeaf.h"
+#include "../Tree/FlattenBinaryTreeToLinkList.h"
+#include "../Tree/ConvertSortArrayToBST.h"
