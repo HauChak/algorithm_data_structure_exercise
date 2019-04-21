@@ -12,7 +12,7 @@ public:
 		int idx = left;
 		int max_value = nums[left];
 		int	max_idx = idx;
-		for (; idx < right; ++idx)
+		for (; idx <= right; ++idx)
 		{
 			if (nums[idx] > max_value)
 			{
@@ -26,6 +26,7 @@ public:
 	}
 	TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
 		TreeNode* root = nullptr;
+		if (nums.empty())return root;
 		make_dfs(nums, root, 0, nums.size() - 1);
 		return root;
 	}

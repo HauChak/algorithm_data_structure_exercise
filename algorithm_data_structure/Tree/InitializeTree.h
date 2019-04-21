@@ -29,3 +29,5 @@ void initialize_tree(TreeNode*&root, vector<int>nums)
 	int start = 0;
 	initialize_helper(root, nums, start);
 }
+
+
