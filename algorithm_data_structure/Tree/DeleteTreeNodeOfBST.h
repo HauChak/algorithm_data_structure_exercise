@@ -4,60 +4,35 @@
 class DeleteTreeNodeOfBST
 {
 public:
-	void delete_node(TreeNode*& root, TreeNode*& parent)
+	TreeNode* find_min(TreeNode* root)
 	{
-		if (!root->left)
+		if (!root)
+			return nullptr;
+		while (root->left)
+			root = root->left;
+		return root;
+	}
+	TreeNode* deleteNode(TreeNode* root, int key) {
+		TreeNode* tmp_node;
+		if (!root)
+			return nullptr;
+		if (key > root->val)
+			root->right=deleteNode(root->right, key);
+		else if (key < root->val)
+			root->left=deleteNode(root->left, key);
+		else if (root->left && root->right)
 		{
-			if (root == parent->left)
-				parent->left = root->right;
-			else parent->right = root->right;
-		}
-		else if (!root->right)
-		{
-			if (root == parent->left)
-				parent->left = root->left;
-			else parent->right = root->left;
+			tmp_node = find_min(root->right);
+			root->val = tmp_node->val;
+			root->right=deleteNode(root->right, tmp_node->val);
 		}
 		else
 		{
-			TreeNode* tmp_parent = root->left;
-			TreeNode* cur = root->left;
-			while (cur->right)
-			{
-				tmp_parent = cur;
-				cur = cur->right;
-			}
-			if (tmp_parent == cur)
-			{
-				tmp_parent->left = nullptr;
-				root->val = cur->val;
-			}
-			else {
-				tmp_parent->right = nullptr;
-				root->val = cur->val;
-			}
+			if (!root->left)
+				root = root->right;
+			else if (!root->right)
+				root = root->left;
 		}
-	}
-	void find_val(TreeNode*& root, int key,TreeNode*&parent)
-	{
-		if (!root)
-			return;
-		if (root->val == key)
-		{
-			delete_node(root, parent);
-			return;
-		}
-		if (root->val < key)
-			find_val(root->right, key, root);
-		else find_val(root->left, key, root);
-	}
-	TreeNode* deleteNode(TreeNode* root, int key) {
-		if (!root)return root;
-		if (root->val == key&&!root->left)
-			return root->right;
-		if (root->val == key && !root->right)
-			return root->left;
-		find_val(root, key, root);
 		return root;
 	}
 protected:
