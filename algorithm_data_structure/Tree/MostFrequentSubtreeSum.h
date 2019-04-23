@@ -22,7 +22,7 @@ public:
 		unordered_map<int, int>m;
 		vector<int>res;
 		pretravel(root, m);
-		sort(m.begin(), m.end(), [](pair<int, int>a, pair<int, int>b) {return a.second > b.second; });
+		//sort(m.begin(), m.end(), [](pair<int, int>a, pair<int, int>b) {return a.second > b.second; });
 		int max_frequency = m.begin()->second;
 		for (auto it = m.begin(); it != m.end(); ++it)
 		{

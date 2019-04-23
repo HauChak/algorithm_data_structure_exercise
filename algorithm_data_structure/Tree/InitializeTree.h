@@ -10,6 +10,15 @@ struct TreeNode
 	TreeNode(int x):val(x),left(nullptr),right(nullptr){}
 }; 
 
+struct Node
+{
+	int val;
+	Node*left;
+	Node*right;
+	Node* next;
+	Node(int x):val(x),left(nullptr),right(nullptr),next(nullptr){}
+}; 
+
 void initialize_helper(TreeNode*& root, vector<int>nums, int& idx)
 {
 	if (idx == nums.size())return;
