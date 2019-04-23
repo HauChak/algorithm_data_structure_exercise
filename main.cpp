@@ -5,11 +5,10 @@ using namespace std;
 
 int main()
 {
-	vector<int> nums = {1,not_T,2};
-	TreeNode* root = nullptr;
+	vector<int> nums = {5,-3,not_T,not_T,2}; TreeNode* root = nullptr;
 	initialize_tree(root, nums);
-	DeleteTreeNodeOfBST demo;
-	TreeNode* new_root = demo.deleteNode(root,2);
+	MostFrequentSubtreeSum demo;
+	vector<int>res = demo.findFrequentTreeSum(root);
 	system("pause");
 	return 0;
 }
