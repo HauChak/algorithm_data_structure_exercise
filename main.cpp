@@ -11,13 +11,9 @@ void test(ListNode* given)
 
 int main()
 {
-	//vector<int> nums = { 5,-3,not_T,not_T,2 }; TreeNode* root = nullptr;
-	//initialize_tree(root, nums);
-	ListNode* a = new ListNode(2);
-	ListNode* b = new ListNode(3);
-	ListNode* c = a;
-	c->next = b;
-	test(c);
+	vector<int>src = { 1,1,1,0 };
+	JumpGame demo;
+	bool res = demo.canJump(src);
 	system("pause");
 	return 0;
 }
