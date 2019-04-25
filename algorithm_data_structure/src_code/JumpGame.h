@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -7,16 +8,12 @@ class JumpGame
 {
 public:
 	bool canJump(vector<int>& nums) {
-		vector<bool>res(nums.size(), false);
-		if (nums.empty())return true;
-		res[0] = true;
-		for (int i = 0; i < nums.size(); ++i)
+		vector<int>dp(nums.size(), 0);
+		for (int i = 1; i < nums.size(); ++i)
 		{
-			for (int j = 0; j <= nums[i]&&i+j<nums.size(); ++j)
-			{
-				res[i + j] = res[i]||res[i+j];
-			}
+			dp[i] = max(dp[i - 1], nums[i-1]) - 1;
+			if (dp[i] < 0)return false;
 		}
-		return res.back();
+		return true;
 	}
 };
