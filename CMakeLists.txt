@@ -20,6 +20,10 @@ SET (CMAKE_NM      "/usr/bin/llvm-nm")
 SET (CMAKE_OBJDUMP "/usr/bin/llvm-objdump")
 SET (CMAKE_RANLIB  "/usr/bin/llvm-ranlib")
 
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D_GLIBCXX_DEBUG")
+
+
+
 macro(group_src_by_dir src_files)
     foreach(file_path ${${src_files}})
         string(REGEX REPLACE ${CMAKE_CURRENT_SOURCE_DIR}/\(.*\) \\1 relative_path ${file_path})
@@ -75,4 +79,7 @@ add_subdirectory(algorithm_data_structure)
 
 add_executable(leetcode main.cpp)
 target_link_libraries(leetcode ${src_code_lib})
+
+set_property(TARGET leetcode PROPERTY CXX_STANDARD 11)
+
 
