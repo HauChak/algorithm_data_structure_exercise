@@ -9,7 +9,7 @@ public:
 	{
 		if (!head || !head->next)
 			return head;
-		ListNode*newhead = nullptr;
+		ListNode*newhead = NULL;
 		while (head)
 		{
 			ListNode *t = head->next;

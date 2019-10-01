@@ -12,6 +12,9 @@ void test(ListNode* given)
 int main()
 {
 	vector<int>src = { 1,1,1,0 };
+	int a[]={1,2,3};
+	cout<<a<<endl;
+	cout<<"hello world"<<endl;
 	JumpGame demo;
 	bool res = demo.canJump(src);
 	system("pause");

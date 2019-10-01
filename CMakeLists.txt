@@ -1,4 +1,25 @@
 ﻿cmake_minimum_required (VERSION 3.4)
+
+SET (CMAKE_C_COMPILER             "/usr/bin/clang")
+SET (CMAKE_C_FLAGS                "-Wall -std=c11")
+SET (CMAKE_C_FLAGS_DEBUG          "-g")
+SET (CMAKE_C_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
+SET (CMAKE_C_FLAGS_RELEASE        "-O4 -DNDEBUG")
+SET (CMAKE_C_FLAGS_RELWITHDEBINFO "-O2 -g")
+
+SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
+SET (CMAKE_CXX_FLAGS                "-Wall -std=c++11")
+SET (CMAKE_CXX_FLAGS_DEBUG          "-g")
+SET (CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
+SET (CMAKE_CXX_FLAGS_RELEASE        "-O4 -DNDEBUG")
+SET (CMAKE_CXX_FLAGS_RELWITHDEBINFO "-O2 -g")
+
+SET (CMAKE_AR      "/usr/bin/llvm-ar")
+SET (CMAKE_LINKER  "/usr/bin/llvm-ld")
+SET (CMAKE_NM      "/usr/bin/llvm-nm")
+SET (CMAKE_OBJDUMP "/usr/bin/llvm-objdump")
+SET (CMAKE_RANLIB  "/usr/bin/llvm-ranlib")
+
 macro(group_src_by_dir src_files)
     foreach(file_path ${${src_files}})
         string(REGEX REPLACE ${CMAKE_CURRENT_SOURCE_DIR}/\(.*\) \\1 relative_path ${file_path})
@@ -38,9 +59,7 @@ endmacro(group_src_by_dir)
 
 
 
-
-
-project (leetcode_exercise)
+project(leetcode_exercise)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 set(PARENT_SRC_DIR ../)

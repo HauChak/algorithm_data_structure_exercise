@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "algorithm": "cpp"
+    },
+    "cmake.configureArgs":["-DCMAKE_USER_MAKE_RULES_OVERRIDE=/home/fodius/ClangOverrides.txt","-D_CMAKE_TOOLCHAIN_PREFIX=llvm-"]
+}

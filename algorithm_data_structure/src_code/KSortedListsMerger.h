@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include<climits>
 #include <algorithm>
 #include "LinkListInitializer.h"
 using namespace std;
@@ -47,8 +48,8 @@ public:
 
 	ListNode*merge_two_list(ListNode*l1, ListNode*l2)
 	{
-		if (l1 == nullptr)return l2;
-		if (l2 == nullptr)return l1;
+		if (l1 == NULL)return l2;
+		if (l2 == NULL)return l1;
 		if (l1->val < l2->val)
 		{
 			l1->next = merge_two_list(l1->next, l2);
@@ -64,7 +65,7 @@ public:
 	ListNode* help_sl(vector<ListNode*>&lists, int left, int right)
 	{
 		
-		if (left > right)return nullptr;
+		if (left > right)return NULL;
 		if (left == right)return lists[left];
 		int mid = (left + right) / 2;
 		ListNode*left_node = help_sl(lists, left, mid);

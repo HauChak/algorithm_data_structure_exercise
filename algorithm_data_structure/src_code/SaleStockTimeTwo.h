@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include<climits>
 #include <algorithm>
 using namespace std;
 class SaleStockTimeTwo
